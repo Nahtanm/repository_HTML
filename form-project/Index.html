@@ -14,21 +14,117 @@
             </div>
 
             <div class="form-container">
-                <div class="header-container">
-                    <p>Segue o formulário</p>
-                </div>
-
                 <div class="form-body">
-                    <p class="form-desc">Responda o formulário de acordo.</p>
-                </div>
-
-                <form>
-                    <div class="usuario">
-                        <label for="name-user">Informe seu nome <span class="campo-obrigatorio">*</span></label>
-                        <input type="text" name="name-user" class="block" placeholder="Nome" minlength="1" maxlength="30" required>
+                    <div class="form-header">
+                        <p>Segue o formulário</p>
                     </div>
-                    <input type="submit" name="name-user">
-                </form>
+
+                    <div class="form-title">
+                        <p class="form-desc">Responda o formulário de acordo.</p>
+                    </div>
+                
+                    <form>
+                        <div class="box-input">
+                            <div class="usuario">
+                                <label for="name-user">Informe seu nome 
+                                    <span class="campo-obrigatorio">*</span>
+                                </label>
+                                <input type="text" 
+                                name="name-user" 
+                                class="block" 
+                                placeholder="Nome" 
+                                minlength="1" 
+                                maxlength="30" 
+                                required>
+                            </div>
+                        </div>
+
+                        <div class="box-input">
+                             <div class="sala">
+                                <label for="sala-user">Informe sua sala 
+                                    <span class="campo-obrigatorio">*</span>
+                                </label>
+                                <input type="number" 
+                                name="sala-user" class="block" 
+                                placeholder="Sala" minlength="1" 
+                                maxlength="10" 
+                                required>
+                            </div>
+                        </div>   
+                           
+                        <div class="box-input">
+                            <div class="horario">
+                                <label for="horario">Informe o horario
+                                    <span class="campo-obrigatorio">*</span>
+                                </label>
+                                <input type="text" 
+                                name="horario" 
+                                class="block" 
+                                placeholder="horario"
+                                minlength="1" 
+                                maxlength="30" 
+                                required>
+                            </div>
+                        </div> 
+
+                        <div class="box-input">
+                            <div class="dia">
+                                <label for="dia">Dia da reserva 
+                                    <span class="campo-obrigatorio">*</span>
+                                </label>
+                                <input type="date"
+                                name="dia" 
+                                class="block"
+                                placeholder="Data"
+                                minlength="1" 
+                                maxlength="30" 
+                                required>
+                            </div>
+                        </div>
+                        
+                        <div class="optional-box">
+                            <p>Dias da semana</p>
+                            <ul class="optional-list">
+                                <li>
+                                    <input type="checkbox" 
+                                    id="segunda" 
+                                    name="optional-list[]" 
+                                    value="segunda" >
+                                    <label for="segunda">Segunda</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="checkbox" 
+                                    id="terça" 
+                                    name="optional[]" 
+                                    value="terça" >
+                                    <label for="terça">Terça-feira</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="checkbox" 
+                                    id="quarta" 
+                                    name="optional[]" 
+                                    value="quarta" >
+                                    <label for="quarta">Quarta-feira</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="checkbox" 
+                                    id="quinta" 
+                                    name="optional[]" 
+                                    value="quinta" >
+                                    <label for="quinta">Quinta-feira</label>
+                                </li>
+                                
+                            </ul>
+                        </div>
+
+                        <input type="submit" name="name-user" class="btn-submit">
+
+                    </form>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

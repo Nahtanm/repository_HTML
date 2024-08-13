@@ -16,6 +16,16 @@ h1, h2, h3, h4, h5{
     text-align: center;
 }
 
+.form-desc{
+    text-align: center;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.form-desc:hover{
+    color: #917d28;
+}
+
 p, label{
     color: #444;
     margin: 10px;
@@ -40,7 +50,6 @@ input[type="text"]{
 }
 
 .form-container{
-    text-align: center;
     background-color: #fdfdfd;
     width: 60%;
     margin: 0 auto;
@@ -48,4 +57,84 @@ input[type="text"]{
     top: -70px;
     border-radius: 10px;
     border: 1px solid #555;
+}
+
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #97820b;
+    border-bottom: 2px solid #917d28;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto ;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 35px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+    margin-left: 320px;
+}
+
+.block{
+    display: block;
+    text-align: center;
+}
+
+.optionl-box{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    
+}
+
+.optional-box p{
+    margin-left: 320px;
+}
+
+.optional-list{
+    list-style: none;
+    margin-bottom: 35px;
+    margin-left: 320px;
+}
+
+.btn-submit{
+    background-color: #3b330c;
+    color: #fdfdfd;
+    width: 150px;
+    height: 50px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    transform: 0.5s;
+    margin-left: 315px;
+}
+
+.btn-submit:hover{
+    background-color: #d1c9a7;
+    border-color: #000000;
+    color: #000000 ;
+}
+
+.box-input label{
+    margin :0;
 }
