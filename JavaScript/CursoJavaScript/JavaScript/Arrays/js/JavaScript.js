@@ -174,14 +174,14 @@
 
 // console.log(arrays.reverse());
 
-// Métodos de String: trim
+// // Métodos de String: trim
 // const string = "  nahtanm \n ";
 
 // console.log(string);
 // // Limpando a string
 // console.log(string.trim());
 
-// padStart
+// // padStart
 // const string = "1";
 
 // const newString = string.padStart(4, "0");
@@ -204,7 +204,7 @@
 
 // console.log(palavra.repeat(3));
 
-// Rest operator
+// // Rest operator
 // const rest = (...args) => {
 //     let total = 0;
 
@@ -217,7 +217,7 @@
 
 // console.log(rest(9, 2, 3, 4));
 
-//  For of
+// //  For of
 // const rest2 = (... args) =>{
 //     let total = 0;
 
