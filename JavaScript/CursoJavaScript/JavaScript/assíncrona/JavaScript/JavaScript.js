@@ -107,12 +107,12 @@
 // chamada();
 
 // Generators
-function* generator(){
-    yield 1;
-    yield 2;
-}
+// function* generator(){
+//     yield 1;
+//     yield 2;
+// }
 
-const num = generator();
+// const num = generator();
 
-console.log(num.next().value);
-console.log(num.next().value);
+// console.log(num.next().value);
+// console.log(num.next().value);
