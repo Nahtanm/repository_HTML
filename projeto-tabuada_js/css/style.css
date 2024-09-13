@@ -63,6 +63,7 @@ h1 {
     border: 1px solid #333;
     border-radius: 5px;
     font-weight: bold;
+    transition: .3s;
 }
 
 #multi-opera{
@@ -76,3 +77,33 @@ h1 {
     color: #333;
     border-radius: 1rem;
 }
+
+.row{
+    display: flex;
+    border: 1px solid #333;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    border-bottom: none;
+}
+
+.row:last-child{
+    border-bottom: 1px solid #333;
+}
+
+#operation, #result{
+    font-size: 13px;
+}
+
+#result{
+    margin-left: 4px;
+}
+
+#multi-table span{
+    margin-left: 5px;
+}
+
+#multi-form input[type="submit"]:hover{
+    background-color: #6b6363;
+} 
