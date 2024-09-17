@@ -21,7 +21,7 @@ body {
     background-color: #fff;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -31,24 +31,54 @@ h2 {
     color: #0c3440;
 }
 
-
-
-.box-input input{
+.box-input input {
     padding: 10px;
-    width: 100% ;
+    width: 85%;
     border: 1px solid #333;
     border-radius: 5px;
 }
 
-.box-input{
-    margin-bottom: 10px ;
+.box-input {
+    margin-bottom: 10px;
+}
+
+#box-form {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#box-form input[type="submit"] {
-    width: 100px;
+button {
+    width: 75%;
+    height: 30px;
     background-color: #454c72;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.active {
+    height: 250px;
+}
+
+#resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    opacity: 0;
+}
+
+.linha {
+    color: #0c3440;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container.active #resultado {
+    opacity: 1;
+}
+
+

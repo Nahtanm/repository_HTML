@@ -3,7 +3,7 @@ const multiForm = document.querySelector("#multi-form");
 const numberInput = document.querySelector("#number");
 const multiplicator = document.querySelector("#multi");
 const multiTable = document.querySelector("#multi-opera");
-const span = document.querySelector("#multi-table span")
+const span = document.querySelector("#multi-table span");
 
 // Funções
 const creatTable = (number, multiplicatorNumber) => {
