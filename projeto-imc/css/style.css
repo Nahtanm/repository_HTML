@@ -81,4 +81,26 @@ button {
     opacity: 1;
 }
 
+.tabela, tr, td{
+    border-collapse: collapse;
+    border-bottom: 1px solid #998787;
+    text-align: center;
+    padding: 10px;
+    color: #0c3440;
+    font-size: 10px;
 
+}
+
+.primeira-linha{
+    font-size: 14px;
+    color: #454c72;
+    margin-left: 10px;
+}
+
+
+
+.tabela-container{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
