@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #203147;
+    background: linear-gradient(160deg, #2c4463 10%, #070927 98%) ;
 }
 
 header {
@@ -53,102 +53,74 @@ header {
     height: 30px;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
 /* Box nav */
 .box-nav {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
     width: 50%;
-    height: 21px;
+    height: 30px;
     margin-top: 14px;
     background-image: linear-gradient(to right, #2e4363, #052947);
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 2px 2px 2px #1d1919;
+}
+
+header ul{
+    list-style: none;
 }
 
 .box-nav a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
+    color: #fff;
 }
 
 .box-nav input {
-    width: 120px;
+    width: 150px;
     height: 16px;
-    margin-top: 2px;
-    margin-left: 30px;
     border: 1px solid;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 10px;
     padding: 0 6px;
-    outline: none;
 }
-
-.box-nav input:focus {
-    border: 1px solid #171d25;
-}
-
-.box-sualoja,
-.box-nov,
-.box-cat,
-.box-loja,
-.box-not {
-    width: 100;
-    font-size: 9px;
-    font-weight: 600;
-    margin: auto 10px auto 30px;
-    transform: none;
-}
-
-.box-sualoja a,
-.box-nov a,
-.box-cat a,
-.box-loja a,
-.box-not a {
-    color: #fff;
-    text-shadow: 1px 1px #171d25;
-}
-
-.box-sualoja:hover,
-.box-nov:hover,
-.box-cat:hover,
-.box-loja:hover,
-.box-not:hover {
-    transform: translate(1px, -1px);
-}
-
-.box-buscar {
-    margin-left: 23px;
-}
-
 /* Box-destaque */
-
-
-
 .box-destaque {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* animation: myfirst 1s infinite;
-    animation-direction: alternate; */
+    width: 70%;
+    margin-top: 80px;
 }
 
-.box-destaque h2 {
-    margin-left: -442px;
+h2 {
+    margin-left: -35%;
     text-transform: uppercase;
-    margin-top: 30px;
     font-size: 12px;
     font-weight: 200;
     color: #fff;
-    text-shadow: 1.5px 1.5px #000000;
+    text-shadow: 1.5px 1.5px 1.5px #000000;
 }
 
 .box-des {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 4px;
     background-color: #223d61;
     box-shadow: 3px 3px 2px #171d25;
     border-radius: 2px;
     width: 50%;
-    height: 250px;
-
+    height: 300px;
 }
 
 /* @keyframes myfirst {
