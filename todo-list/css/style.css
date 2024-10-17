@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+header h2{
+    padding: .5rem;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: none ;
+} 
+
+button:hover>i{
+    color: #754;
+}
+
+button i {
+    padding: .3rem .6rem;
+    font-size: 1rem;
+}
+
+/* form add - form edit*/
+#task-input,
+#edit-input{
+    padding: .3rem;
+    margin-right: .3rem;
+    border: 1px solid #555;
+}
+
+.form-control button{
+    border: 1px solid #555;
+}
+
+.form-control button:hover{
+    border: 1px solid #754;
+}
+
+.form-control{
+    display: flex;
+}
+
+.form-add p,
+.form-edit p{
+    font-weight: bold;
+    margin-top: .5rem;
+}   
+
+.form-add,
+.form-edit{
+    padding: .4rem;
+}
+
+/* Task list */
+.task{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.task h3{
+    flex: 1;
+    margin-right: .8rem;
+}
+
+.task button{
+    border-radius: 5px ;
+    margin-right: .3rem;
+}
+
+.task-finish{
+    background-color: #555;
+}
+
+.task-finish h3{
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.hide{
+    display: none;
+}

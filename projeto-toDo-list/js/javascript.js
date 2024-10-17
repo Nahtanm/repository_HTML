@@ -135,6 +135,8 @@ document.addEventListener("click", (e) => {
   const parentEl = element.closest("div");
   let todoTitle;
 
+  console.log(element)
+
   if (parentEl && parentEl.querySelector("h3")) {
     todoTitle = parentEl.querySelector("h3").innerText;
   }
