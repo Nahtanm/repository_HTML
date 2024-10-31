@@ -27,6 +27,8 @@
             <div class="form-control">
                 <input type="text" id="task-input" placeholder="Ex: Estudar">
                 <button type="submit"><i class="fa-thin fa-plus"></i></button>
+                <button id="search-btn"><i class="fa fa-search"></i></button>
+
             </div>
         </form>
 
@@ -38,23 +40,17 @@
             </div>
         </form>
 
-
+        <div class="form-search hide">
+            <form class="search">
+                <div class="form-control">
+                    <input type="text" id="search-input" placeholder="Procurar tarefa.">
+                    <button id="erase-button"><i class="fa-solid fa-delete-left"></i></button>
+                </div>
+                    <button id="cancel-btn">Cancelar</button>
+            </form>
+        </div>
 
         <div id="task-list">
-
-            <div class="task">
-                <h3>Task a ser feita</h3>
-                <button class=""><i class="fa-solid fa-check finish"></i></button>
-                <button class=""><i class="fa-solid fa-pen edit"></i></button>
-                <button class=""><i class="fa-solid fa-xmark remove"></i></button>
-            </div>
-
-            <div class="task task-finish">
-                <h3>Task as</h3>
-                <button class=""><i class="fa-solid fa-check finish"></i></button>
-                <button class=""><i class="fa-solid fa-pen edit"></i></button>
-                <button class=""><i class="fa-solid fa-xmark remove"></i></button>
-            </div>
 
         </div>
 

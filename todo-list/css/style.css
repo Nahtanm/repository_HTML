@@ -42,6 +42,7 @@ button{
     justify-content: center;
     background-color: #fff;
     border: none ;
+    margin-right: .3rem;
 } 
 
 button:hover>i{
@@ -55,7 +56,8 @@ button i {
 
 /* form add - form edit*/
 #task-input,
-#edit-input{
+#edit-input,
+#search-input{
     padding: .3rem;
     margin-right: .3rem;
     border: 1px solid #555;
@@ -78,6 +80,16 @@ button i {
     font-weight: bold;
     margin-top: .5rem;
 }   
+
+.form-search{
+    margin-top: .8rem;
+}
+
+#cancel-btn{
+    padding: .3rem;
+    margin-top: .3rem;
+    border: 1px solid #555;
+}
 
 .form-add,
 .form-edit{
